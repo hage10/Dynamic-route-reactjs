@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "component": "Tab1",
+      "url": "/tab1",
+      "modulePath": "./pages/Tab1/tab1.tsx",
+      "id": 1,
+      "itemLevel": 1,
+      "parentId": null
+    },
+    {
+      "component": "Tab2",
+      "url": "/tab2",
+      "modulePath": "./pages/Tab2/tab2.tsx",
+      "id": 2,
+      "itemLevel": 1,
+      "parentId": null
+    },
+    {
+      "component": "Tab3",
+      "url": "/tab3",
+      "modulePath": "./pages/Tab3/tab3.tsx",
+      "id": 3,
+      "itemLevel": 1,
+      "parentId": null
+    },
+    {
+      "component": "DashboardMessages",
+      "url": "/tab3/messages",
+      "modulePath": "./pages/Tab3/pageChild/DashboardMessages.tsx",
+      "id": 4,
+      "itemLevel": 2,
+      "parentId": 3
+    },
+    {
+      "component": "AddMsg",
+      "url": "/tab3/messages/addmsg",
+      "modulePath": "./pages/Tab3/pageChild/pageChild/AddMsg.tsx",
+      "id": 5,
+      "itemLevel": 3,
+      "parentId": 4
+    },
+    {
+      "component": "UpdateMsg",
+      "url": "/tab3/messages/updatemsg",
+      "modulePath": "./pages/Tab3/pageChild/pageChild/UpdateMsg.tsx",
+      "id": 6,
+      "itemLevel": 3,
+      "parentId": 4
+    },
+    {
+      "component": "DashboardTasks",
+      "url": "/tab3/tasks",
+      "modulePath": "./pages/Tab3/pageChild/DashboardTasks.tsx",
+      "id": 7,
+      "itemLevel": 2,
+      "parentId": 3
+    }
+  ]
+}
